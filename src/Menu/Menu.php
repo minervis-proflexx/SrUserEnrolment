@@ -2,6 +2,8 @@
 
 namespace srag\Plugins\SrUserEnrolment\Menu;
 
+require_once __DIR__ . "/../../vendor/autoload.php";
+
 use ilAdministrationGUI;
 use ilDBConstants;
 use ILIAS\GlobalScreen\Scope\MainMenu\Factory\AbstractBaseItem;
